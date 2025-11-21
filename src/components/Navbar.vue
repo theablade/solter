@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Navigation Bar -->
+
     <nav :class="[
       'fixed top-0 left-0 w-full backdrop-blur-lg px-6 py-4 flex justify-center z-50 transition-all duration-500',
       {
@@ -15,7 +15,7 @@
           <a href="/" class="group flex items-center space-x-2" @click="scrollToTop">
             <div class="relative">
               <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 dark:from-blue-400 dark:via-purple-400 dark:to-blue-600 bg-clip-text text-transparent group-hover:scale-110 transition-all duration-300 cursor-pointer">
-                weeb
+                Soller
               </span>
               <div class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-500"></div>
             </div>
